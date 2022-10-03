@@ -35,6 +35,24 @@
 }
 
 
+.feed {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  -webkit-box-flex: 0;
+  flex: 0 0 calc(100% / 5 - 10px);
+  aspect-ratio: 1;
+  margin: 5px;
+  display: block;
+  position: relative;
+
+  background: no-repeat center;
+  background-size: cover;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
