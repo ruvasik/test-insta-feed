@@ -16,8 +16,6 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           SITE-456
         </h1>
-
-
       </main>
 
       <footer className={styles.footer}>
